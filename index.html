@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://www.template-guide.com/preview/5302/ -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<title>Gram Seva Sangh Kumbhad</title>
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="style/normalize.css" type="text/css" media="screen">
+<link rel="stylesheet" href="style/grid.css" type="text/css" media="screen">
+<link href="style/css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="style/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="style/waypoints.min.js"></script>
+<link rel="stylesheet" href="style/demo.css">
+<!-- load jQuery and the plugin -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="style/bjqs-1.3.min.js"></script>
+<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.src.js"></script>
+		<style type="text/css">
+			.circle_img {display:none; }
+			#slide1 span {font-size:26px;}
+		</style>
+	<![endif]-->
+
+<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+<!-- use jssor.slider.debug.js instead for debug -->
+<script>
+        jssor_1_slider_init = function() {
+            
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1000);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+    <style>
+        
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+    </style>
+<style>
+.captionOrange, .captionBlack {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange {
+	background: #EB5100;
+	background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack {
+	font-size:16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover {
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+	background: url(../img/browser-icons.png);
+}
+</style>
+
+<!--#region Bullet Navigator Skin Begin -->
+<!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
+
+</head>
+
+<body>
+<div class="effect_2"  id="pagetop">
+  <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 95px;">
+    <div class="menu" style="margin-top: 20px; padding-bottom: 0px;">
+      <div class="container clearfix">
+        <div id="logo" class="fleft"> <a href="index.html"><img src="style/logo.png"></a> </div>
+        <nav id="primary_nav_wrap">
+          <ul>
+            <li><a href="index.html" class="active-menu">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="kedarmandir.html">Kedar Mandir</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="ourstalwarts.html">Our Stalwarts</a></li>
+            <li class="current-menu-item"> <a href="#">Culture</a>
+              <ul class="submenu">
+                <li><a href="festivals.html">Festivals</a></li>
+                <li><a href="cuisines.html">Cuisines</a></li>
+                <li><a href="activities.html">Activites</a></li>
+              </ul>
+            </li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!--<div class="slide" id="slide1" data-stellar-background-ratio="0.5" style="height: background-position: 0px -1px;">
+    <div class="container clearfix">
+      <div id="content" class="grid_12">
+        <div class="filtr_bg titleload" style="margin-top: 130.5px; ">
+          <p><a href="index.htm"><img alt="Kumbhad logo" src="style/logo-big.png" /></a></p>
+          <br/>
+          <br/>
+          <h3>Gram Seva Sangha</h3>
+          <h1>Kumbhad</h1>
+        </div>
+        
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>-->
+  <div class="slide" id="slide2" data-stellar-background-ratio="0.5" style="background-position: 0px 187px;">
+    <div class="container clearfix">
+      <div id="content" class="about_heart">
+        <div id="content" class="grid_12">
+        <div id="sliderb_container" >
+          <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 530px; overflow: hidden; visibility: hidden;"> 
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            </div>
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 530px; overflow: hidden;">
+            	<div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider0.jpg" title="Huge arch at the entrance of Kumbhad village"/> </div>
+              <div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider3.jpg" title="Chattrapati Shivaji Maharaj Statue" /> </div>
+              <div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider5.jpg" title="Shree DUTTA temple and Chattrapati Shivaji Maharaj statue at entrance" /> </div>
+              <div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider7.jpg" title="Shree Kedar Mandir" /> </div>
+              
+              <div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider2.jpg" title="Holi - Shimga procession" /> </div>
+              <div data-p="112.50" style="display: none;"> <img data-u="image" src="style/slider4.jpg" title="Ganeshotsav" /> </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1"> 
+              <!-- bullet navigator item prototype -->
+              <div data-u="prototype" style="width:16px;height:16px;"></div>
+            </div>
+            <!-- Arrow Navigator --> 
+            <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span> <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span> <a href="http://www.jssor.com" style="display:none">Slideshow Maker</a> </div>
+          <script>
+        jssor_1_slider_init();
+    </script> 
+    </div>
+        </div>
+        <div class="grid_12">
+          <div class="about_block">
+            <h4>Mauje Kumbhad welcomes you...</h4>
+            <img class="about_foto" src="style/aboutus-pic.jpg" alt="">
+            <p>Kumbhad is small village situated at the foothills of the Sahaydri ranges. The village is gifted with beautiful scenary and  has
+              rich culture and a brave history. </p>
+            <p>It is the part of the Seven villages of Bhosale family(7 gaon Bhosale). Population of Kumbhad is around 2000 and people of all sects including Maratha, Kumbhar(potter), NavBuddha, Nhavi(barber) and rohidas reside here with harmony and peace.</p>
+            <p> Architecture view of the village is North-South the main road which is the only road goes through the center of the village and the river' Kumbharli' runs from the west.Kumbhad has 5 wadis.and 7 Takshim (1. Sabhai 2) Narayan bua 3) Khot Gharane 4) Chandu bua 5) Yesu bua 6) Choughar 7) Habsena </p>
+            <p>At the north is the temple of Gramdevta - Lord Kedar (an avatar of Lord Shiva) , along with the idols of Lord Kedar there are idols of Lord Kalkai, Zholai, Waghjai and Kalashri Marka is the guard to these gods.</p>
+            <p>There are other temples of Lord Somaiyaa, Lord Ganesh and Lord Maruti.</p>
+            <p>At the entrance of Kumbhad there is a temple of Lord Dattatreya and to its side is the Statue of Chattrapati Shivaji Maharaj (the pride of Maharashtra and India)</p>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <img class="icon_heart" src="style/icon1.png"> </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container clearfix">
+      <div class="copyright">Gram Seva Sangh Kumbhad © 2015 | <a href="javascript:void(0);">Privacy Policy</a></div>
+      <div id="back_top"><a class="button" title="" href="#pagetop">back to top</a></div>
+    </div>
+  </div>
+</div>
+<script>
+//setInterval(function(){ $('.titleload').fadeOut(); }, 5000);
+//setInterval(function(){ $('#sliderb_container').css('opacity','1'); }, 5000);
+</script> 
+<script src="style/libs/jquery.secret-source.min.js"></script> 
+<script>
+    jQuery(function($) {
+
+        $('.secret-source').secretSource({
+            includeTag: false
+        });
+
+    });
+    </script>
+</body>
+</html>
